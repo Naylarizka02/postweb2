@@ -1,0 +1,110 @@
+@media screen and (min-width:1080px) {
+    body{
+    background-image: url("nayla.JPG");
+   background-size:cover;
+    font-family: cursive;
+}
+}
+
+.daftar {
+    display: none;
+    width: 60%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16pxss;
+}
+.daftar{
+    background-color: #DCD3FF;
+}
+.daftar table{
+    display: inline-block;
+    border: 1px solid black;
+
+}
+
+tr, th, td{
+    border: 1px solid black;
+}
+
+ol,ul{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+}
+
+.nayla {
+    border: 4px dashed black;
+    width: auto;
+    height: auto;
+    margin-bottom: 1%;
+}
+
+/**.daftatrnama{
+    display: block;
+}**/
+
+
+li{
+    border-bottom: 1px solid black;
+}
+ol,ul{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: auto;
+    border-bottom: 1px solid black;
+    margin-left: auto;
+    margin: 0px;
+}
+.piket ul li{
+    margin: -2px;
+    border-bottom: 1px solid black;
+}
+.naynay {
+    border: 4px dotted black;
+    width: auto;
+    height: 300;
+}
+
+@media screen and (max-width:768px) {
+body{
+    background-color: #cea2fd;
+}
+.daftarnama ol, .piket ul {
+    margin: 10px 10px;
+}
+.nayla, .naynay {
+    display: block;
+    margin: 20px 20px;
+
+}
+
+}
+
+@media screen and (max-width:500px) {
+    body{
+        background-color: skyblue;
+    }
+    h1,h2,h3 {
+        font-size: 20px;
+    }
+    
+.nayla, .naynay {
+    display: block;
+    margin: 20px 20px;
+
+}
+.daftarnama ol, .piket ul {
+    margin: 10px 10px;
+}
+
+}
